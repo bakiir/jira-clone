@@ -6,6 +6,8 @@ export interface IComment extends Document {
   authorId: mongoose.Types.ObjectId;
   isEdited: boolean;
   editedAt?: Date;
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 const CommentSchema = new Schema(

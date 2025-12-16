@@ -6,6 +6,8 @@ export interface IUser extends Document {
   name: string;
   avatar?: string;
   role: "ADMIN" | "MEMBER";
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 const UserSchema = new Schema(

@@ -7,6 +7,8 @@ export interface IProject extends Document {
   ownerId: mongoose.Types.ObjectId;
   memberIds: mongoose.Types.ObjectId[];
   taskCounter: number; // ← Добавили это поле
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 const ProjectSchema = new Schema(

@@ -10,6 +10,8 @@ export interface ITask extends Document {
   reporterId: mongoose.Types.ObjectId;
   position: number;
   taskNumber: number;
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 const TaskSchema = new Schema(
