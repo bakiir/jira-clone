@@ -107,13 +107,7 @@ npm test
 yarn test
 ```
 
-## Deployment/Access Links
 
-These links are for the deployed production environment:
-
-*   **Frontend URL (prod)**: `[Placeholder for Frontend URL]`
-*   **GraphQL endpoint (prod)**: `[Placeholder for GraphQL Endpoint]`
-*   **WS endpoint for subscriptions (prod)**: `[Placeholder for WS Endpoint for Subscriptions]`
 
 ## Folder Structure
 
